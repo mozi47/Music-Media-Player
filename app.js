@@ -83,6 +83,7 @@ listbtn.addEventListener("click", () => {
 
 backbtn.addEventListener("click", () => {
   musicCard.classList.remove("active");
+  mainCard.classList.toggle("slide");
 });
 
 //load song and add detail
